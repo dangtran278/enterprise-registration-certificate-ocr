@@ -1,0 +1,70 @@
+body, html {
+    margin: 20px;
+    font-family: sans-serif;
+    background-color: whitesmoke;
+    color: black;
+    lighting-color:blue;
+    outline-color:black;
+    text-align:center;
+}
+
+center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table{
+  border: 1px solid pink;
+  border-spacing: 0;
+  width: 50%;
+  font-size:14px;
+  margin-left: auto;
+  margin-right: auto;
+  border: .5px;
+  border-style: solid;
+  border-color: pink;
+}
+
+th{
+  border: 1px solid pink;
+  border-spacing: 2px;
+  width: 50%;
+  font-size:14px;
+  margin-left: auto;
+  margin-right: auto;
+  border: .5px;
+  border-style: solid;
+  border-color: pink;
+}
+
+td{
+  border: 1px solid pink;
+  border-spacing: 2px;
+  width: 50%;
+  font-size:14px;
+  margin-left: auto;
+  margin-right: auto;
+  border: .5px;
+  border-style: solid;
+  border-color: pink;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(255, 244, 246);
+}
+
+input[type=file] {
+  width: 50;
+  background-color: pink;
+  color: white;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=file]:hover {
+  background-color: rgb(255, 160, 176);
+  color:lightgray;
+}
